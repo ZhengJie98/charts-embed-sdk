@@ -1,12 +1,12 @@
 import ChartsEmbedSDK from "@mongodb-js/charts-embed-dom";
 
 const sdk = new ChartsEmbedSDK({
-  baseUrl: "https://charts.mongodb.com/charts-embedding-examples-wgffp", // Optional: ~REPLACE~ with the Base URL from your Embed Dashboard dialog
+  baseUrl: "https://charts.mongodb.com/charts-project-0-tksvw", // Optional: ~REPLACE~ with the Base URL from your Embed Dashboard dialog
 });
 
 // Read https://dochub.mongodb.org/core/charts-dashboards-embedded-dashboard-options for more options
 const dashboard = sdk.createDashboard({
-  dashboardId: "620ddc92-d1cd-42df-8c16-d94afba775d6",
+  dashboardId: "6438c0d4-2b11-44ac-8656-f10d0f5ad907",
 });
 
 async function populateDropdown() {
